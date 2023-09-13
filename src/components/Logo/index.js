@@ -1,4 +1,4 @@
-import logo from '../../images/logo.svg'
+import logo from '../../images/logo.png'
 import styled from 'styled-components'
 
 const LogoContainer = styled.div`
@@ -8,14 +8,17 @@ const LogoContainer = styled.div`
 `
 
 const LogoImg = styled.img`
-    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    margin-top: 19px;
+    
 `
 
 function Logo() {
     return (
         <LogoContainer>
             <LogoImg src={logo} alt={'logo'} className='logo-img'></LogoImg>
-            <p><strong>Alura</strong>Books</p>
+            <p><strong>Book</strong>Store</p>
         </LogoContainer>
     )
 }
