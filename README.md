@@ -1,2 +1,5 @@
-# project-fullstack
-Um projeto fullstack utilizando para front-end o React e no back-end, vou utilizar o NodeJs com Java Script.
+# project-bookstore-frontend
+Um projeto fullstack de uma livraria.
+
+## Ferramentas
+Neste repositório, estou utilizando o React para criar o front-end do projeto.
