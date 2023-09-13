@@ -12,11 +12,20 @@ const ContainerReleases = styled.section`
 `
 
 const NewBooksContainer = styled.div`
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     width: 100%;
     justify-content: center;
     cursor: pointer;
+`
+const ImageNewBooks = styled.img`
+    padding: 30px;
+    width: 15%;
+    height: 15%;
+    cursor: pointer;
+    border: 1px solid #FFF;
+    
+    border-radius: 50px;
 `
 function LastReleases() {
     return (
@@ -27,7 +36,7 @@ function LastReleases() {
             >ÚLTIMOS LANÇAMENTOS</Title>
             <NewBooksContainer>
                 {livros.map(item => (
-                    <img src={item.src} alt='lastReleases' />
+                    <ImageNewBooks src={item.src} alt='lastReleases' />
                 ))}
             </NewBooksContainer>
             <Recommends 
